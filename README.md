@@ -42,7 +42,7 @@
    endmenu
    ```
 
-3. 在 ***micropython/ports/esp32** 目录下执行命令 `idf.py menuconfig` 可以对工程进行配置.
+3. 在 ***micropython/ports/esp32*** 目录下执行命令 `idf.py menuconfig` 可以对工程进行配置.
 
 4. 进入 ***micropython/ports/esp32*** 目录, 使用 `make` 或 `idf.py` 均可实现固件的编译和烧录.
 
