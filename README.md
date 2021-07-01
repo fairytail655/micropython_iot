@@ -51,7 +51,7 @@
      * 编译, 需要指定 **USER_C_MODULES** 宏为 `micropython_iot/micropython.cmake` 文件路径(最好采用绝对路径), 如:
 
          ```shell
-     make USER_C_MODULES=/home/user/Desktop/micropython/ports/esp32/micropython_iot/micropython.cmake
+         make USER_C_MODULES=/home/user/Desktop/micropython/ports/esp32/micropython_iot/micropython.cmake
          ```
 
      * 烧录, 执行 `make deploy`.
@@ -61,7 +61,7 @@
      * 编译, 需要指定 **USER_C_MODULES** 宏为 `micropython_iot/micropython.cmake` 文件路径(最好采用绝对路径), 如:
 
          ```shell
-     idf.py -DUSER_C_MODULES=/home/user/Desktop/micropython/ports/esp32/micropython_iot/micropython.cmake build
+         idf.py -DUSER_C_MODULES=/home/user/Desktop/micropython/ports/esp32/micropython_iot/micropython.cmake build
          ```
 
      * 烧录, 执行 `idf.py flash`.
