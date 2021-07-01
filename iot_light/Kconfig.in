@@ -1,0 +1,4 @@
+config LIGHT_GPIO_NUM
+    int "GPIO num of light"
+    range 1 30
+    default 25
